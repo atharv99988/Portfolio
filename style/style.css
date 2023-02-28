@@ -9,8 +9,8 @@
     padding: 2% ;
 }
 
-h1{
-    padding-bottom: 50px;
+h1,h2{
+    padding-bottom: 30px;
 }
 
 
@@ -87,7 +87,7 @@ nav ul a:hover::after{
 .about-col-1 img{
     width: 100% ;
     border-radius: 15px;
-    padding-top: 100px;
+    margin-top: 100px;
 }
 .about-col-2{
     flex-basis: 60%;
@@ -139,4 +139,34 @@ nav ul a:hover::after{
 }
 
 /* adding css for services */
+col{
+    padding: 0% 10px;
+}
 
+.sub-title span {
+    color: red;
+}
+.service-items{
+    background-color: #EDF1D6;
+    padding: 40px;
+    border-radius: 10px;
+    transition: backgroundd 0.5s ,transform 0.5s;
+}
+
+.service-items i{
+    font-size: 100px;
+    padding-bottom: 20px;
+}
+
+
+.service-items h2{
+    font-size: 30px;
+    font-weight: 700;
+    margin: 20px 0px 0px 0px;
+}
+
+.service-items:hover{
+    background-color: #FF0303;
+    transform: translateY(-10px);
+    color: #EDF1D6;
+}
