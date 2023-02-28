@@ -14,8 +14,8 @@
     content="https://raw.githubusercontent.com/atharv99988/atharv99988.github.io/main/assets/images/logo.png" />
   <link rel="shortcut icon" href="./assets/images/logo.png" type="image/x-icon">
 
-  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="style/style.css">
 </head>
 
@@ -30,7 +30,7 @@
         <img src="./assets/images/logo.png" alt="" class="logo">
         <ul>
           <li><a href="">Home</a></li>
-          <li><a href="">About</a></li>
+          <li><a href="#about">About</a></li>
           <li><a href="">Services</a></li>
           <li><a href="">Portfolio</a></li>
           <li><a href="">Contact Me</a></li>
@@ -44,22 +44,27 @@
         <h1>Hii,I'm Atharv Shelgaonkar<br> From India</h1>
       </div>
       <!-- End of header text  -->
+
       <!-- start of about  -->
       <div id="about">
         <div class="row">
           <div class="about-col-1">
-            <img src="assets/images/user.png" alt="">
+            <img src="assets/images/WhatsApp Image 2023-02-28 at 9.38.14 PM.jpeg" alt="" class ="img">
           </div>
           <div class="about-col-2">
             <h1>About Me</h1>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi tempore temporibus cupiditate iure
-              nisi cumque non illum, pariatur obcaecati perferendis corrupti necessitatibus et similique alias
-              voluptates impedit quis. Natus, odio?
+            <p>Hi, I'm a highly motivated 4th-year B.tech student with a great passion for exploring the latest
+              engineering technologies. I love working in teams to generate creative ideas and solutions to real-life
+              problems.
+              After a long day, I find motivation in staying fit by hitting the gym, and I also enjoy reading self-help
+              books to enhance my personal capabilities by 1% every day. My ultimate goal is to become a successful
+              software developer, and I am constantly striving to enhance my organizational skills and develop a
+              well-rounded skill set to achieve this.
             </p>
             <div class="tab-titles">
               <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
               <p class="tab-links" onclick="opentab('experience')">Experience</p>
-              <p class="tab-links"onclick="opentab('education')">Education</p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
             </div>
             <div class="tab-content active-tab" id="skills">
               <ul>
@@ -69,16 +74,66 @@
               </ul>
             </div>
             <div class="tab-content" id="experience">
-              <p>Experience</p>
+              <ul>
+                <li>
+                  I am a freasure right now,<br>gaining experience at <br>Capgemini.
+                </li>
+              </ul>
             </div>
             <div class="tab-content" id="education">
-              <p>education</p>
+              <ul>
+                <li><span>10th</span><br>Golden Jubilee School (Jalna)<br>Percentage - 78%</li>
+                <li><span>12th</span><br>JES College , jalna<br>Percentage - 56.46%</li>
+                <li><span>B.Tech (E&Tc)</span><br>Deogiri Institute of Engineering and Management Studies<br>Percentage
+                  - 81.6%</li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
       <!-- end of about -->
+      <!-- stat of services section  -->
+      <div id="services">
+        <div class="container">
+          <h1 class="sub-title">My Service</h1>
+          <div class="row">
+            <div class="col">
+              <h2>Web Design</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla sed accusamus rem ipsa culpa porro!
+                Exercitationem tenetur esse tempore sed porro explicabo, est consequuntur molestiae, numquam voluptates,
+                atque at eos.
+              </p>
+              <a href="http://">Learn More</a>
+            </div>
+            <div class="col">
+              <h2>Graphic Design</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla sed accusamus rem ipsa culpa porro!
+                Exercitationem tenetur esse tempore sed porro explicabo, est consequuntur molestiae, numquam voluptates,
+                atque at eos.
+              </p>
+              <a href="http://">Learn More</a>
+            </div>
+            <div class="col">
+              <h2>Backednd Development</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla sed accusamus rem ipsa culpa porro!
+                Exercitationem tenetur esse tempore sed porro explicabo, est consequuntur molestiae, numquam voluptates,
+                atque at eos.
+              </p>
+              <a href="http://">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of services section  -->
+
+
     </div>
+
+    <!-- START OF FOOTER -->
+    <div class="footer">
+      <p>Made with Love ❤ by Atharv</p>
+    </div>
+    <!-- End of footer -->
   </div>
 
 
@@ -91,22 +146,22 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script> -->
-    <script>
-      var tablinks = document.getElementsByClassName('tab-links')
-      var tabcontents = document.getElementsByClassName('tab-content')
+  <script>
+    var tablinks = document.getElementsByClassName('tab-links')
+    var tabcontents = document.getElementsByClassName('tab-content')
 
-      var opentab =(tabname)=>{
-        for(var tablink of tablinks){
-          tablink.classList.remove('active-link')
-        }
-        for (var tabcontent of tabcontents) {
-          tabcontent.classList.remove('active-tab')
-        }
-        event.currentTarget.classList.add('active-link');
-        document.getElementById(tabname).classList.add('active-tab')
+    var opentab = (tabname) => {
+      for (var tablink of tablinks) {
+        tablink.classList.remove('active-link')
       }
+      for (var tabcontent of tabcontents) {
+        tabcontent.classList.remove('active-tab')
+      }
+      event.currentTarget.classList.add('active-link');
+      document.getElementById(tabname).classList.add('active-tab')
+    }
 
-    </script>
+  </script>
 </body>
 
 </html>
